@@ -1,22 +1,17 @@
 <svg width="800" height="345" viewBox="0 0 800 345" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Main background -->
   <rect width="800" height="345" rx="12" fill="#0D1B2A"/>
 
-  <!-- Title bar -->
   <rect width="800" height="36" rx="12" fill="#091522"/>
   <rect y="26" width="800" height="10" fill="#091522"/>
 
-  <!-- Window control dots -->
   <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="62" cy="18" r="6" fill="#27c93f"/>
 
-  <!-- Title bar label (em dash as XML entity) -->
   <text x="400" y="23" text-anchor="middle"
-        font-family="'Courier New', Courier, monospace" font-size="12" fill="#8BAF52">asma@github: ~ &#x2014; bash</text>
+        font-family="'Courier New', Courier, monospace" font-size="12" fill="#8BAF52">asma@github: ~ &#8212; bash</text>
 
-  <!-- Colour palette dots (right side of title bar, like real neofetch) -->
   <circle cx="564" cy="18" r="5" fill="#0D1B2A" stroke="#3d5c24" stroke-width="1"/>
   <circle cx="580" cy="18" r="5" fill="#3d5c24"/>
   <circle cx="596" cy="18" r="5" fill="#5a8a3c"/>
@@ -26,13 +21,10 @@
   <circle cx="660" cy="18" r="5" fill="#2d5a8c"/>
   <circle cx="676" cy="18" r="5" fill="#7aa0c0"/>
 
-  <!-- All text shares font via group  presentation attrs are NOT stripped by GitHub -->
   <g font-family="'Courier New', Courier, monospace" font-size="13">
 
-    <!-- Prompt -->
     <text x="24" y="57" fill="#c8d5a0">$ neofetch</text>
 
-    <!-- LEFT: ASCII coffee cup -->
     <text x="34" y="82"  fill="#8BAF52">    )  )  )</text>
     <text x="34" y="100" fill="#8BAF52">   (  (  ( </text>
     <text x="34" y="118" fill="#8BAF52">  .---------.</text>
@@ -41,34 +33,25 @@
     <text x="34" y="172" fill="#8BAF52">  `---------'</text>
     <text x="34" y="190" fill="#4a7030">   sip. sip.</text>
 
-    <!-- RIGHT: username -->
     <text x="296" y="82" fill="#8BAF52" font-weight="bold">asma@github</text>
 
-    <!-- Separator lines (SVG lines, no unicode needed) -->
     <line x1="296" y1="92"  x2="718" y2="92"  stroke="#2d4e1c" stroke-width="1"/>
     <line x1="296" y1="221" x2="718" y2="221" stroke="#2d4e1c" stroke-width="1"/>
 
-    <!-- INFO ROWS
-         Key column:  x=296  (padded to 9 chars with xml:space=preserve)
-         Dots column: x=407  (ASCII periods, always 7 chars " ..... ")
-         Value column: x=460
-    -->
-    <text x="296" y="118" xml:space="preserve"><tspan fill="#8BAF52">OS       </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">CS Undergrad (final boss: TBD)</tspan></text>
-    <text x="296" y="136" xml:space="preserve"><tspan fill="#8BAF52">Host     </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">University, Pakistan</tspan></text>
-    <text x="296" y="154" xml:space="preserve"><tspan fill="#8BAF52">Uptime   </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">21 years, still going</tspan></text>
-    <text x="296" y="172" xml:space="preserve"><tspan fill="#8BAF52">Shell    </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">caffeine + VS Code</tspan></text>
-    <text x="296" y="190" xml:space="preserve"><tspan fill="#8BAF52">CPU      </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">sleep-deprived @ 3AM</tspan></text>
-    <text x="296" y="208" xml:space="preserve"><tspan fill="#8BAF52">Memory   </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">8GB (Chrome ate it all)</tspan></text>
+    <text y="118"><tspan x="296" fill="#8BAF52">OS</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">CS Undergrad (final boss: TBD)</tspan></text>
+    <text y="136"><tspan x="296" fill="#8BAF52">Host</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">University, Pakistan</tspan></text>
+    <text y="154"><tspan x="296" fill="#8BAF52">Uptime</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">21 years, still going</tspan></text>
+    <text y="172"><tspan x="296" fill="#8BAF52">Shell</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">caffeine + VS Code</tspan></text>
+    <text y="190"><tspan x="296" fill="#8BAF52">CPU</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">sleep-deprived @ 3AM</tspan></text>
+    <text y="208"><tspan x="296" fill="#8BAF52">Memory</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">8GB (Chrome ate it all)</tspan></text>
 
-    <!-- TECH ROWS (below second separator) -->
-    <text x="296" y="244" xml:space="preserve"><tspan fill="#8BAF52">Languages</tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">JS - TS - Java - C++ - SQL</tspan></text>
-    <text x="296" y="262" xml:space="preserve"><tspan fill="#8BAF52">Stack    </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">MERN - Next.js - Docker</tspan></text>
-    <text x="296" y="280" xml:space="preserve"><tspan fill="#8BAF52">Databases</tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">MongoDB - MySQL - Postgres</tspan></text>
-    <text x="296" y="298" xml:space="preserve"><tspan fill="#8BAF52">Currently</tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">surviving system design @ 3AM</tspan></text>
-    <text x="296" y="316" xml:space="preserve"><tspan fill="#8BAF52">Mood     </tspan><tspan fill="#2d4e1c"> ..... </tspan><tspan fill="#c8d5a0">if (coffee &gt; 0) { code() }</tspan></text>
+    <text y="244"><tspan x="296" fill="#8BAF52">Languages</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">JS - TS - Java - C++ - SQL</tspan></text>
+    <text y="262"><tspan x="296" fill="#8BAF52">Stack</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">MERN - Next.js - Docker</tspan></text>
+    <text y="280"><tspan x="296" fill="#8BAF52">Databases</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">MongoDB - MySQL - Postgres</tspan></text>
+    <text y="298"><tspan x="296" fill="#8BAF52">Currently</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">surviving system design @ 3AM</tspan></text>
+    <text y="316"><tspan x="296" fill="#8BAF52">Mood</tspan><tspan x="407" fill="#2d4e1c">.....  </tspan><tspan x="460" fill="#c8d5a0">if (coffee &gt; 0) { code() }</tspan></text>
 
-    <!-- Final prompt with block cursor as XML entity -->
-    <text x="24" y="334" fill="#c8d5a0">$ <tspan fill="#8BAF52">&#x2588;</tspan></text>
+    <text x="24" y="334" fill="#c8d5a0">$ <tspan fill="#8BAF52">&#9608;</tspan></text>
 
   </g>
 </svg>

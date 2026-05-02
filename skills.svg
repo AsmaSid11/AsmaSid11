@@ -1,48 +1,34 @@
 <svg width="800" height="225" viewBox="0 0 800 225" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Background -->
   <rect width="800" height="225" rx="12" fill="#0D1B2A"/>
 
-  <!-- Title bar -->
   <rect width="800" height="36" rx="12" fill="#091522"/>
   <rect y="26" width="800" height="10" fill="#091522"/>
 
-  <!-- Window control dots -->
   <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="62" cy="18" r="6" fill="#27c93f"/>
 
-  <!-- Title -->
   <text x="400" y="23" text-anchor="middle"
-        font-family="'Courier New', Courier, monospace" font-size="12" fill="#8BAF52">asma@github: ~/skills &#x2014; bash</text>
+        font-family="'Courier New', Courier, monospace" font-size="12" fill="#8BAF52">asma@github: ~/skills &#8212; bash</text>
 
   <g font-family="'Courier New', Courier, monospace" font-size="13">
 
-    <!-- Prompt -->
     <text x="24" y="57" fill="#c8d5a0">$ ls -la ./skills/</text>
 
-    <!-- "total" line -->
     <text x="24" y="78" fill="#4a7030">total 4 directories  --  listing installed packages</text>
 
-    <!-- Separator -->
     <line x1="24" y1="88" x2="776" y2="88" stroke="#2d4e1c" stroke-width="1"/>
 
-    <!--
-      Row format (xml:space="preserve"):
-        prefix  "drwxr-xr-x  " (13 chars) ’ dim
-        category padded to 13 chars        ’ olive bold
-        items                              ’ sage
-    -->
-    <text x="24" y="112" xml:space="preserve"><tspan fill="#2d4e1c">drwxr-xr-x  </tspan><tspan fill="#8BAF52" font-weight="bold">languages/   </tspan><tspan fill="#c8d5a0">JavaScript   TypeScript   Java   C++   HTML</tspan></text>
+    <text y="112"><tspan x="24" fill="#2d4e1c">drwxr-xr-x</tspan><tspan x="118" fill="#8BAF52" font-weight="bold">languages/</tspan><tspan x="218" fill="#c8d5a0">JavaScript   TypeScript   Java   C++   HTML</tspan></text>
 
-    <text x="24" y="134" xml:space="preserve"><tspan fill="#2d4e1c">drwxr-xr-x  </tspan><tspan fill="#8BAF52" font-weight="bold">frameworks/  </tspan><tspan fill="#c8d5a0">React   Next.js   Node.js   Express   Angular   Tailwind</tspan></text>
+    <text y="134"><tspan x="24" fill="#2d4e1c">drwxr-xr-x</tspan><tspan x="118" fill="#8BAF52" font-weight="bold">frameworks/</tspan><tspan x="218" fill="#c8d5a0">React   Next.js   Node.js   Express   Angular   Tailwind</tspan></text>
 
-    <text x="24" y="156" xml:space="preserve"><tspan fill="#2d4e1c">drwxr-xr-x  </tspan><tspan fill="#8BAF52" font-weight="bold">databases/   </tspan><tspan fill="#c8d5a0">MongoDB   MySQL   PostgreSQL   Redis   Supabase   Oracle</tspan></text>
+    <text y="156"><tspan x="24" fill="#2d4e1c">drwxr-xr-x</tspan><tspan x="118" fill="#8BAF52" font-weight="bold">databases/</tspan><tspan x="218" fill="#c8d5a0">MongoDB   MySQL   PostgreSQL   Redis   Supabase   Oracle</tspan></text>
 
-    <text x="24" y="178" xml:space="preserve"><tspan fill="#2d4e1c">drwxr-xr-x  </tspan><tspan fill="#8BAF52" font-weight="bold">tools/       </tspan><tspan fill="#c8d5a0">Docker   Git   Figma   Postman   Vercel   Firebase   Kafka</tspan></text>
+    <text y="178"><tspan x="24" fill="#2d4e1c">drwxr-xr-x</tspan><tspan x="118" fill="#8BAF52" font-weight="bold">tools/</tspan><tspan x="218" fill="#c8d5a0">Docker   Git   Figma   Postman   Vercel   Firebase   Kafka</tspan></text>
 
-    <!-- Final prompt -->
-    <text x="24" y="210" fill="#c8d5a0">$ <tspan fill="#8BAF52">&#x2588;</tspan></text>
+    <text x="24" y="210" fill="#c8d5a0">$ <tspan fill="#8BAF52">&#9608;</tspan></text>
 
   </g>
 </svg>

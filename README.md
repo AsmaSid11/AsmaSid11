@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=091522&height=140&section=header&text=&fontSize=0" alt="header"/>
 
 <p align="center">
-  <img src="terminal.svg" alt="Asma's terminal" width="800"/>
+  <img src="https://raw.githubusercontent.com/AsmaSid11/AsmaSid11/main/terminal.svg" alt="Asma's terminal" width="800"/>
 </p>
 
 <br/>
@@ -14,7 +14,7 @@ $ ls -la ./skills/
 
 <h4 align="center">— Languages —</h4>
 <p align="center">
-  <img src="skills.svg" alt="Skills" width="800"/>
+  <img src="https://raw.githubusercontent.com/AsmaSid11/AsmaSid11/main/skills.svg" alt="Skills" width="800"/>
 </p>
 
 <br/>
