@@ -10,6 +10,9 @@
 $ ls -la ./skills/
 ```
 
+<br/>
+
+<h4 align="center">— Languages —</h4>
 <p align="center">
   <img src="skills.svg" alt="Skills" width="800"/>
 </p>
@@ -46,6 +49,18 @@ $ git log --graph --all --oneline
 <br/>
 
 ```bash
+$ ./snake --watch contributions
+```
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AsmaSid11/AsmaSid11/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</p>
+
+<br/>
+
+```bash
 $ ssh-keygen -t connect -C "asma@github"
 ```
 
@@ -64,7 +79,7 @@ $ ssh-keygen -t connect -C "asma@github"
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=AsmaSiddiqui" alt="Visitor Badge"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=AsmaSid11.AsmaSid11&style=flat-square&color=8BAF52&labelColor=0D1B2A" alt="Visitor Badge"/>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=091522&height=100&section=footer" alt="footer"/>
